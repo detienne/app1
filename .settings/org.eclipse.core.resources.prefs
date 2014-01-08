@@ -1,2 +1,4 @@
 eclipse.preferences.version=1
+encoding//src/application/Core/views/layouts/layout.phtml=UTF-8
+encoding//src/application/Core/views/scripts/error/error.phtml=UTF-8
 encoding/<project>=UTF-8
