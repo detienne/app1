@@ -1,5 +1,4 @@
 {
   "require" : {
-    "phpmd/phpmd" : "dev-master"
   }
 }

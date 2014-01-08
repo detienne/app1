@@ -4,15 +4,15 @@
  * 
  * Controller de contact de l'application
  * 
- * @category		App1
- * @package			Core
- * 
+ * @category    App1
+ * @package     Core
  */
 
 class ContactController extends Zend_Controller_Action
 {
-	function indexAction()
-	{
-		
-	}
+    
+    public function indexAction()
+    {
+        
+    }
 }

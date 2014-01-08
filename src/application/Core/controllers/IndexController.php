@@ -2,17 +2,22 @@
 
 /**
  * 
- * Controller par défaut de l'application
+ * Controller par défaur de l'application
  * 
- * @category		App1
- * @package			Core
- * 
+ * @category    App1
+ * @package     Core
  */
 
 class IndexController extends Zend_Controller_Action
 {
-	function indexAction()
-	{
-		
-	}
+    
+    public function indexAction()
+    {
+        
+    }
+    
+    public function testAction()
+    {
+        
+    }
 }

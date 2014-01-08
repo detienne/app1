@@ -1,2 +1,9 @@
-<?php $this->headTitle('Accueil'); ?>
+<?php 
+$this->headTitle('Accueil');
+$this->headMeta()->appendName('description', "Page d'accueil");
+?>
+
 Index
+
+<br />
+<a href="<?= $this->url(array(), 'contactIndex') ?>">Nous contacter</a>
