@@ -1,0 +1,14 @@
+<ul>
+<?php
+	foreach($this->articles as $article)
+	{
+?>
+		<li>
+			<h2><?= $article->getTitre(); ?></h2>
+			<p><?= $article->getResume(); ?></p>
+			<p>Auteur: <?php echo $article->auteur->getPrenom()." ".$article->auteur->getNom();?></p>
+		</li>
+<?php
+	}
+?>
+</ul>
